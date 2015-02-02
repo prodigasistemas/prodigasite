@@ -4,7 +4,7 @@
 <head>
 	<!-- Basic -->
 	<meta charset="utf-8">
-	<title>Jets - Home page</title>
+	<title>Jets - Animation</title>
 	<meta name="keywords" content="HTML5 Template" />
 	<meta name="description" content="Jets - Responsive HTML5 Template">
 	<meta name="author" content="funcoders.com">
@@ -34,16 +34,13 @@
 	<link rel="stylesheet" href="css/theme-elements.min.css">
 	<link rel="stylesheet" href="css/color/orange.css">
 
-	<!-- Slider revolution -->
-	<link rel="stylesheet" href="js/library/slider-revolution/css/settings.css">
-
 	<link rel="stylesheet" href="css/library/animate/animate.min.css">
 
 	<!-- Your styles -->
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="index">
+<body class="page-features">
 
 	<aside class="side-options side-options-right" id="language-options">
 		<div class="side-options-heading">
@@ -136,9 +133,9 @@
 					</ul><!-- #mobile-menu -->
 
 					<ul id="main-menu" class="collapse navbar-collapse nav slide custom">
-						<li class='active'><a href="index.html">Home<i class="carret"></i><span>Let's Start here</span></a>
+						<li><a href="index.html">Home<i class="carret"></i><span>Let's Start here</span></a>
 							<ul class="dropdown">
-								<li class='active'><a href="index.html">Default Home Page</a></li>
+								<li><a href="index.html">Default Home Page</a></li>
 								<li><a href="index-2.html">Home Page Stye 2</a></li>
 								<li><a href="index-3.html">Home Page Stye 3</a></li>
 								<li><a href="index-informational.html">Home Page Informational</a></li>
@@ -542,20 +539,20 @@
 								</li>
 							</ul><!-- .megamenu -->
 						</li>
-						<li><a href="#">Features<i class="carret"></i><span>Out of the Box</span></a>
+						<li class='active'><a href="#">Features<i class="carret"></i><span>Out of the Box</span></a>
 							<ul class="dropdown">
-								<li><a href="features-header-default.html">Layout Header<i class="carret"></i></a>
+								<li><a href="#">Layout Header<i class="carret"></i></a>
 									<ul class="dropdown">
-										<li><a href="features-header-default.html">Default</a></li>
-										<li><a href="features-header-1.html">Style 1</a></li>
-										<li><a href="features-header-2.html">Style 2</a></li>
-										<li><a href="features-header-3.html">Style 3</a></li>
+										<li><a data-name="jets-header" href="default">Default</a></li>
+										<li><a data-name="jets-header" href="style1">Style 1</a></li>
+										<li><a data-name="jets-header" href="style2">Style 2</a></li>
+										<li><a data-name="jets-header" href="style3">Style 3</a></li>
 									</ul>
 								</li>
-								<li><a href="features-menu-default.html">Drop Down Menu<i class="carret"></i></a>
+								<li><a href="#">Drop Down Menu<i class="carret"></i></a>
 									<ul class="dropdown">
-										<li><a href="features-menu-default.html">Default</a></li>
-										<li><a href="features-menu-custom.html">Custom</a></li>
+										<li><a data-name="jets-drop-down" href="default">Default</a></li>
+										<li><a data-name="jets-drop-down" href="custom">Custom</a></li>
 									</ul>
 								</li>
 								<li><a href="features-grid.html">Grid System</a></li>
@@ -567,7 +564,7 @@
 										<li><a href="features-iconicomoon.html">Iconmoon Font</a></li>
 									</ul>
 								</li>
-								<li><a href="features-animation.html">Animation</a></li>
+								<li class='active'><a href="features-animation.html">Animation</a></li>
 							</ul>
 						</li>
 						<li><a href="#">Shortcodes<i class="carret"></i><span>Page elements</span></a>
@@ -632,671 +629,530 @@
 		</div><!-- .navbar -->
 	</header><!-- #header -->
 
-	<div class="page-slider-wrap">
-		<div id="page-slider" >
-			<ul>
-				<li data-transition="zoomout" data-masterspeed="1300">
-
-					<!-- MAIN IMAGE -->
-					<img src="uploads/images/slides/1/bg.jpg"  alt="bg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption slider-title text-right sfl" data-x="right" data-hoffset="-15" data-y="top" data-voffset="130" data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300" style="color:#083f68">Jets waitng for you</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption slider-sub-title text-right sfl" data-x="right" data-hoffset="-15" data-y="center" data-speed="1100" data-start="600" data-easing="Back.easeInOut" data-endspeed="300" style="color:#ec5753">Increase your productivity, business<br/> and status with this awesome theme</div>
-
-					<!-- LAYER NR. 3 -->
-					<a href="#" class="tp-caption sfb btn btn-big text-right" data-x="right" data-hoffset="-15" data-y="bottom" data-voffset="-130" data-speed="1000" data-start="700" data-easing="Back.easeInOut" data-endspeed="300" style="color:#52c7e5">Read More</a>
-
-				</li>
-				<li data-transition="zoomout" data-masterspeed="1300">
-
-					<!-- MAIN IMAGE -->
-					<img src="uploads/images/slides/2/bg.jpg"  alt="bg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption slider-title text-center sft" data-x="center" data-y="center" data-voffset="-140" data-speed="1000" data-start="500" data-easing="Power1.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" style="color:#756670">Discover all new!</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption slider-sub-title text-center sfl" data-x="center" data-y="center" data-speed="800" data-start="600" data-easing="Power1.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" style="color:#062234">We have collected the most modern web<br /> technologies added a little bit of our love<br /> painted with bright colors and created Jets</div>
-
-					<!-- LAYER NR. 3 -->
-					<a href="#" class="tp-caption sfb btn btn-big" data-x="center" data-y="center" data-voffset="140" data-speed="1000" data-start="700" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" style="color:#182035">Know More</a>
-
-				</li>
-				<li data-transition="zoomout" data-masterspeed="1300">
-
-					<!-- MAIN IMAGE -->
-					<img src="uploads/images/slides/3/bg.jpg"  alt="bg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption slider-title sfr" data-x="15" data-y="top" data-voffset="130" data-speed="800" data-start="700" data-easing="Back.easeInOut" data-endspeed="300" style="color:#d4deed">Feel free with Jets</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption slider-sub-title sfl" data-x="15" data-y="center" data-speed="1000" data-start="800" data-easing="Back.easeInOut" data-endspeed="300" style="color:#ecc5a8">Here you will find everything <br /> you need for you</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption sfr btn btn-big" data-x="15" data-y="bottom" data-voffset="-130" data-speed="800" data-start="900" data-easing="Power3.easeInOut" data-endspeed="300" style="color:#1a3e83">Read More</div>
-
-				</li>
-			</ul>
-			<div class="tp-bannertimer tp-bottom"></div>
+	<aside id="page-header" class="page-header-image  " style="background-image:url(uploads/images/page/headers/header.jpg)">
+		<div class="page-header-inner">
+			<div class="page-header-content">
+				<div class="container">
+					<h1 class="hide-to-left">Animation</h1>
+					<p class="hide-to-right lead">Discover powerful feature for page Animation</p>
+				</div>
+			</div>
 		</div>
-	</div><!-- .page-slider-wrap -->
-
+		<div class="breadcrumbs hide-to-bottom">
+			<div class="container">
+				<ul>
+					<li><a href="index.html" class="home"></a></li>
+					<li><a href="#">Features</a></li>
+					<li class="current"><a href="features-animation.html">Animation</a></li>
+				</ul>
+			</div>
+		</div><!-- .breadcrumbs -->
+	</aside><!-- #page-header -->
 	<div id="page-content" role="main">
 		<div class="container">
-
-			<!-- CONTENT -->
 			<div id="content">
-				<div class="container-out">
 
-					<div class="title title-section">
-						<h2>Enjoy with new features</h2>
-						<p>In facilisis eget nisi nec consectetur. Maecenas laoreet tellus varius, aliquet justo non, interdum metus.</p>
-						<span class="sticker">
-							<i class="icon fa fa-cogs"></i>
-						</span>
-					</div><!-- .title.title-section -->
-
-					<div class="row">
-						<div class="col-sm-4" data-animate="bounceIn">
-
-							<div class="iconbox iconbox-style3 iconbox-list">
-								<div class="iconbox-heading">
-									<div class="icon">
-										<i class="fa fa-building"></i>
-									</div>
-								</div><!-- .iconbox-heading -->
-								<div class="iconbox-content">
-									<div class="title">
-										<h5>Over 200+ icons from Awesome and Icomoon fonts</h5>
-									</div>
-									<div class="text">
-										<p>Netus class duis placerat duis dolor, velit varius dolor ac</p>
-
-									</div>
-								</div><!-- .iconbox-content -->
-							</div><!-- .iconbox -->
-
-						</div><!-- .col-sm-4 -->
-						<div class="col-sm-4" data-animate="bounceIn">
-
-							<div class="iconbox iconbox-style3 iconbox-list">
-								<div class="iconbox-heading">
-									<div class="icon">
-										<i>B</i>
-									</div>
-								</div><!-- .iconbox-heading -->
-								<div class="iconbox-content">
-									<div class="title">
-										<h5>New Bootstrap 3.0</h5>
-									</div>
-									<div class="text">
-										<p>Facilisis netus ad litora sem et, feugiat consectetur posuere tellus</p>
-
-									</div>
-								</div><!-- .iconbox-content -->
-							</div><!-- .iconbox -->
-
-						</div><!-- .col-sm-4 -->
-						<div class="col-sm-4" data-animate="bounceIn">
-
-							<div class="iconbox iconbox-style3 iconbox-list">
-								<div class="iconbox-heading">
-									<div class="icon">
-										<i class="icomoon-droplet"></i>
-									</div>
-								</div><!-- .iconbox-heading -->
-								<div class="iconbox-content">
-									<div class="title">
-										<h5>Multiple color schemes</h5>
-									</div>
-									<div class="text">
-										<p>Condimentum ut felis at sem morbi, sed praesent maecenas ultrices</p>
-
-									</div>
-								</div><!-- .iconbox-content -->
-							</div><!-- .iconbox -->
-
-						</div><!-- .col-sm-4 -->
-					</div><!-- .row -->
-					<div class="push"></div>
-					<div class="row">
-						<div class="col-sm-4" data-animate="bounceIn">
-
-							<div class="iconbox iconbox-style3 iconbox-list">
-								<div class="iconbox-heading">
-									<div class="icon">
-										<i class="icomoon-stack"></i>
-									</div>
-								</div><!-- .iconbox-heading -->
-								<div class="iconbox-content">
-									<div class="title">
-										<h5>Flexible page structure</h5>
-									</div>
-									<div class="text">
-										<p>Dictum malesuada congue nullam ut adipiscing, luctus proin libero blandit</p>
-
-									</div>
-								</div><!-- .iconbox-content -->
-							</div><!-- .iconbox -->
-
-						</div><!-- .col-sm-4 -->
-						<div class="col-sm-4" data-animate="bounceIn">
-
-							<div class="iconbox iconbox-style3 iconbox-list">
-								<div class="iconbox-heading">
-									<div class="icon">
-										<i class="icomoon-code"></i>
-									</div>
-								</div><!-- .iconbox-heading -->
-								<div class="iconbox-content">
-									<div class="title">
-										<h5>Clean code</h5>
-									</div>
-									<div class="text">
-										<p>Accumsan venenatis condimentum praesent fringilla ipsum, consectetur vel placerat massa</p>
-
-									</div>
-								</div><!-- .iconbox-content -->
-							</div><!-- .iconbox -->
-
-						</div><!-- .col-sm-4 -->
-						<div class="col-sm-4" data-animate="bounceIn">
-
-							<div class="iconbox iconbox-style3 iconbox-list">
-								<div class="iconbox-heading">
-									<div class="icon">
-										<i class="icomoon-support"></i>
-									</div>
-								</div><!-- .iconbox-heading -->
-								<div class="iconbox-content">
-									<div class="title">
-										<h5>Free updates and support</h5>
-									</div>
-									<div class="text">
-										<p>Vulputate cras ultrices morbi curabitur etiam, aenean interdum quisque metus</p>
-
-									</div>
-								</div><!-- .iconbox-content -->
-							</div><!-- .iconbox -->
-
-						</div><!-- .col-sm-4 -->
-					</div><!-- .row -->
-					<hr  class="devider-margin-big" />
-					<div class="thumbnail" data-animate="rollIn">
-						<img src="uploads/images/macbook-preview.png" alt="Macbook-preview">
+				<style type="text/css">
+				#scroll-down {
+					text-align: center;
+					display: table;
+					width: 100%;
+					margin-bottom: 50px;
+					text-transform: uppercase;
+				}
+				#scroll-down > div {
+					display: table-cell;
+					vertical-align: middle;
+				}
+				#scroll-down i {
+					-webkit-animation: scroll 0.8s linear infinite;
+					animation: scroll 0.8s linear infinite;
+					font-size: 28px;
+					color: #404148;
+				}
+				@-webkit-keyframes scroll {
+					0% {
+						-webkit-transform: translateY(0);
+						transform: translateY(0);
+						opacity: 1;
+					}
+					100% {
+						-webkit-transform: translateY(50px);
+						transform: translateY(50px);
+						opacity: 0;
+					}
+				}
+				@keyframes scroll {
+					0% {
+						-webkit-transform: translateY(0);
+						transform: translateY(0);
+						opacity: 1;
+					}
+					100% {
+						-webkit-transform: translateY(50px);
+						transform: translateY(50px);
+						opacity: 0;
+					}
+				}
+				#content .row > * > * > * {
+					font-size: 16px;
+					height: 100px;
+					text-align: center;
+					line-height: 100px;
+					margin-bottom: 50px;
+					color: #fff;
+					background: #2d343e;
+				}
+				</style>
+				<div id="scroll-down">
+					<div>
+						<h2>Scroll page down</h2>
+						<i class="fa fa-long-arrow-down"></i>
 					</div>
-				</div><!-- .container-out -->
-				<div class="container-out container-image" style="background-image:url(uploads/images/page/sections/section.jpg)" >
+				</div>
+				<script type="text/javascript">
+				var windowHeight = isNaN(window.innerHeight) ? window.clientHeight : window.innerHeight,
+				el = document.getElementById("scroll-down");
 
-					<div class="title title-section">
-						<h2>Our beautiful projects</h2>
-						<p>Nulla facilisi. Fusce bibendum dui eu volutpat suscipit.</p>
-						<span class="sticker">
-							<i class="icon icomoon-quill"></i>
-						</span>
-					</div><!-- .title.title-section -->
+				document.getElementById("scroll-down").style.height = windowHeight - el.offsetTop  - 50 + 'px';
+				</script>
 
-					<div data-animate="slideInLeft">
-						<div class="carousel-wrap">
-							<ul class="carousel-nav">
-								<li><a href="#" class="btn btn-icon-prev prev"></a></li>
-								<li><a href="#" class="btn btn-icon-next next"></a></li>
-							</ul><!-- .carousel-nav -->
-							<div class="projects carousel" data-visible="3">
-								<article class="project project-default photography">
-									<div class="project-heading">
-										<div class="thumbnail">
-											<img src="uploads/images/content/image_M.jpg" alt="Image">
-										</div>
-										<ul class="project-action">
-											<li><a class="lightbox btn btn-icon-view" href="uploads/images/content/image.jpg" data-fancybox-title="<h4>Aenean auctor</h4><p>Suspendisse eget condimentum elit. Vestibulum dignissim cursus pulvinar. Suspendisse tempus eget enim nec euismod. Ut pharetra justo sed adipiscing pretium.</p><p class='text-right'><a href='portfolio-single.html' class='btn'>View project</a></p>" data-fancybox-group="portfolio"></a></li>
-											<li><a class="link btn btn-icon-link" href="portfolio-single.html"></a></li>
-										</ul>
-									</div><!-- .project-heading -->
-									<div class="project-content">
+				<hr class="devider" />
 
-										<div class="title">
-											<h2 class="h5"><a href="portfolio-single.html">Aenean auctor</a></h2>
-											<p class="meta">
-												<span class="meta-like">58</span>
-												<span class="meta-date">2 June</span>
-												<span class="meta-comments">34</span>
-											</p><!-- .meta -->
-										</div><!-- .title -->
+				<div class="title title-main text-center">
+					<h4>Attention Seekers</h4>
+				</div>
 
-									</div><!-- .project-content -->
-								</article><!-- .project -->
-								<article class="project project-default illustration web animation">
-									<div class="project-heading">
-										<div class="thumbnail">
-											<img src="uploads/images/content/image_M.jpg" alt="Image">
-										</div>
-										<ul class="project-action">
-											<li><a class="lightbox btn btn-icon-view" href="uploads/images/content/image.jpg" data-fancybox-title="<h4>Aenean</h4><p> Maecenas dapibus euismod nunc vel condimentum. Suspendisse dapibus fermentum tempor.</p><p class='text-right'><a href='portfolio-single.html' class='btn'>View project</a></p>" data-fancybox-group="portfolio"></a></li>
-											<li><a class="link btn btn-icon-link" href="portfolio-single.html"></a></li>
-										</ul>
-									</div><!-- .project-heading -->
-									<div class="project-content">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounce"><div>Bounce</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounce"><div>Bounce</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounce"><div>Bounce</div></div></div>
+				</div>
 
-										<div class="title">
-											<h2 class="h5"><a href="portfolio-single.html">Aenean</a></h2>
-											<p class="meta">
-												<span class="meta-like">11</span>
-												<span class="meta-date">14 June</span>
-												<span class="meta-comments">8</span>
-											</p><!-- .meta -->
-										</div><!-- .title -->
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="flash"><div>Flash</div></div></div>
+					<div class="col-xs-4"><div data-animate="flash"><div>Flash</div></div></div>
+					<div class="col-xs-4"><div data-animate="flash"><div>Flash</div></div></div>
+				</div>
 
-									</div><!-- .project-content -->
-								</article><!-- .project -->
-								<article class="project project-default design">
-									<div class="project-heading">
-										<div class="thumbnail">
-											<img src="uploads/images/content/image_M.jpg" alt="Image">
-										</div>
-										<ul class="project-action">
-											<li><a class="lightbox btn btn-icon-view" href="uploads/images/content/image.jpg" data-fancybox-title="<h4>Vestibulum tristique</h4><p>Fusce eget condimentum quam. Vestibulum nec sapien odio. Etiam vel neque et tortor molestie vehicula ornare mollis tortor. Quisque in scelerisque diam.</p><p class='text-right'><a href='portfolio-single.html' class='btn'>View project</a></p>" data-fancybox-group="portfolio"></a></li>
-											<li><a class="link btn btn-icon-link" href="portfolio-single.html"></a></li>
-										</ul>
-									</div><!-- .project-heading -->
-									<div class="project-content">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="pulse"><div>Pulse</div></div></div>
+					<div class="col-xs-4"><div data-animate="pulse"><div>Pulse</div></div></div>
+					<div class="col-xs-4"><div data-animate="pulse"><div>Pulse</div></div></div>
+				</div>
 
-										<div class="title">
-											<h2 class="h5"><a href="portfolio-single.html">Vestibulum tristique</a></h2>
-											<p class="meta">
-												<span class="meta-like">4</span>
-												<span class="meta-date">17 July</span>
-												<span class="meta-comments">22</span>
-											</p><!-- .meta -->
-										</div><!-- .title -->
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rubberBand"><div>rubberBand</div></div></div>
+					<div class="col-xs-4"><div data-animate="rubberBand"><div>rubberBand</div></div></div>
+					<div class="col-xs-4"><div data-animate="rubberBand"><div>rubberBand</div></div></div>
+				</div>
 
-									</div><!-- .project-content -->
-								</article><!-- .project -->
-								<article class="project project-default design web">
-									<div class="project-heading">
-										<div class="thumbnail">
-											<img src="uploads/images/content/image_M.jpg" alt="Image">
-										</div>
-										<ul class="project-action">
-											<li><a class="lightbox btn btn-icon-view" href="uploads/images/content/image.jpg" data-fancybox-title="<h4>Ut quam dolor</h4><p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent et facilisis diam. Suspendisse potenti.</p><p class='text-right'><a href='portfolio-single.html' class='btn'>View project</a></p>" data-fancybox-group="portfolio"></a></li>
-											<li><a class="link btn btn-icon-link" href="portfolio-single.html"></a></li>
-										</ul>
-									</div><!-- .project-heading -->
-									<div class="project-content">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="shake"><div>shake</div></div></div>
+					<div class="col-xs-4"><div data-animate="shake"><div>shake</div></div></div>
+					<div class="col-xs-4"><div data-animate="shake"><div>shake</div></div></div>
+				</div>
 
-										<div class="title">
-											<h2 class="h5"><a href="portfolio-single.html">Ut quam dolor</a></h2>
-											<p class="meta">
-												<span class="meta-like">63</span>
-												<span class="meta-date">21 July</span>
-												<span class="meta-comments">14</span>
-											</p><!-- .meta -->
-										</div><!-- .title -->
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="swing"><div>swing</div></div></div>
+					<div class="col-xs-4"><div data-animate="swing"><div>swing</div></div></div>
+					<div class="col-xs-4"><div data-animate="swing"><div>swing</div></div></div>
+				</div>
 
-									</div><!-- .project-content -->
-								</article><!-- .project -->
-								<article class="project project-default illustration design animation">
-									<div class="project-heading">
-										<div class="thumbnail">
-											<img src="uploads/images/content/image_M.jpg" alt="Image">
-										</div>
-										<ul class="project-action">
-											<li><a class="lightbox btn btn-icon-view" href="uploads/images/content/image.jpg" data-fancybox-title="<h4>Etiam pharetra interdum</h4><p>Phasellus quis elit libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo mauris, vestibulum eget turpis nec, cursus tempor arcu.</p><p class='text-right'><a href='portfolio-single.html' class='btn'>View project</a></p>" data-fancybox-group="portfolio"></a></li>
-											<li><a class="link btn btn-icon-link" href="portfolio-single.html"></a></li>
-										</ul>
-									</div><!-- .project-heading -->
-									<div class="project-content">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="tada"><div>tada</div></div></div>
+					<div class="col-xs-4"><div data-animate="tada"><div>tada</div></div></div>
+					<div class="col-xs-4"><div data-animate="tada"><div>tada</div></div></div>
+				</div>
 
-										<div class="title">
-											<h2 class="h5"><a href="portfolio-single.html">Etiam pharetra interdum</a></h2>
-											<p class="meta">
-												<span class="meta-like">7</span>
-												<span class="meta-date">20 Aug</span>
-												<span class="meta-comments">41</span>
-											</p><!-- .meta -->
-										</div><!-- .title -->
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="wobble"><div>wobble</div></div></div>
+					<div class="col-xs-4"><div data-animate="wobble"><div>wobble</div></div></div>
+					<div class="col-xs-4"><div data-animate="wobble"><div>wobble</div></div></div>
+				</div>
 
-									</div><!-- .project-content -->
-								</article><!-- .project -->
-								<article class="project project-default illustration design">
-									<div class="project-heading">
-										<div class="thumbnail">
-											<img src="uploads/images/content/image_M.jpg" alt="Image">
-										</div>
-										<ul class="project-action">
-											<li><a class="lightbox btn btn-icon-view" href="uploads/images/content/image.jpg" data-fancybox-title="<h4>Suspendisse</h4><p>Nam dolor felis, tristique quis posuere ac, molestie ut nulla. Sed ornare lorem ut est faucibus, a pulvinar odio dignissim. In lacinia placerat ipsum, ut aliquet justo sagittis vitae.</p><p class='text-right'><a href='portfolio-single.html' class='btn'>View project</a></p>" data-fancybox-group="portfolio"></a></li>
-											<li><a class="link btn btn-icon-link" href="portfolio-single.html"></a></li>
-										</ul>
-									</div><!-- .project-heading -->
-									<div class="project-content">
+				<div class="push"></div>
 
-										<div class="title">
-											<h2 class="h5"><a href="portfolio-single.html">Suspendisse</a></h2>
-											<p class="meta">
-												<span class="meta-like">21</span>
-												<span class="meta-date">29 Aug</span>
-												<span class="meta-comments">2</span>
-											</p><!-- .meta -->
-										</div><!-- .title -->
+				<div class="title title-main text-center">
+					<h4>Bouncing Entrances</h4>
+				</div>
 
-									</div><!-- .project-content -->
-								</article><!-- .project -->
-							</div><!-- .carousel -->
-							<div class="carousel-pagi"></div>
-						</div><!-- .carousel-wrap -->
-					</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceIn"><div>bounceIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceIn"><div>bounceIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceIn"><div>bounceIn</div></div></div>
+				</div>
 
-				</div><!-- .container-out -->
-				<div class="container-out container-light container-no-bottom">
-					<div class="row-inline-wrap">
-						<div class="row row-inline">
-							<div class="col-sm-6" data-animate="bounceInLeft">
-								<img src="uploads/images/ipad-preview.png" alt="Ipad-preview">
-							</div><!-- .col-sm-6 -->
-							<div class="col-sm-6" data-animate="bounceInRight">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceInDown"><div>bounceInDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInDown"><div>bounceInDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInDown"><div>bounceInDown</div></div></div>
+				</div>
 
-								<div class="title">
-									<h3>You will be pleasantly surprised</h3>
-								</div><!-- .title -->
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceInLeft"><div>bounceInLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInLeft"><div>bounceInLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInLeft"><div>bounceInLeft</div></div></div>
+				</div>
 
-								<div class="text">
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-								</div><!-- .text -->
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceInRight"><div>bounceInRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInRight"><div>bounceInRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInRight"><div>bounceInRight</div></div></div>
+				</div>
 
-							</div><!-- .col-sm-6 -->
-						</div><!-- .row -->
-					</div><!-- .row-inline-wrap -->
-				</div><!-- .container-out -->
-				<div class="container-out">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceInUp"><div>bounceInUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInUp"><div>bounceInUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceInUp"><div>bounceInUp</div></div></div>
+				</div>
 
-					<div class="title title-section">
-						<h2>Latest news from the blog</h2>
-						<p>Integer vel lectus orci. Nam non purus at odio ultricies malesuada.</p>
-						<span class="sticker">
-							<i class="icon fa fa-bullhorn"></i>
-						</span>
-					</div><!-- .title.title-section -->
+				<div class="push"></div>
 
-					<div data-animate="flipInY">
-						<div class="carousel-wrap">
-							<ul class="carousel-nav">
-								<li><a href="#" class="btn btn-icon-prev prev"></a></li>
-								<li><a href="#" class="btn btn-icon-next next"></a></li>
-							</ul><!-- .carousel-nav -->
-							<div class="carousel" data-visible="3">
-								<article class="post post-latest post-type-gallery">
-									<div class="post-heading">
-										<div class="thumbnail">
-											<div class="slider">
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-											</div><!-- .slider -->
-										</div><!-- .thumbnail -->
-									</div><!-- .post-heading -->
-									<div class="post-content">
-										<div class="type"></div><!-- .type -->
-										<div class="title">
-											<h2 class="h4"><a href="blog-single.html">Sed ut perspiciatis unde omnis</a></h2>
-											<p class="meta">
-												<span class="meta-category"><a href="#">neque</a> / <a href="#">vitae</a> / <a href="#">eget</a></span>
-												<span class="meta-date">19 Jan</span>
-											</p>
-										</div><!-- .title -->
-										<div class="text">
-											<p>Praesent aptent quam sem netus tempor bibendum orci, at elementum aliquam lacus ornare erat, sollicitudin lacus arcu eget porttitor egestas <a href="blog-single.html">...more...</a></p>
-										</div><!-- .text -->
-									</div><!-- .post-content -->
-								</article><!-- .post -->
-								<article class="post post-latest post-type-video">
-									<div class="post-heading">
+				<div class="title title-main text-center">
+					<h4>Bouncing Exits</h4>
+				</div>
 
-										<div class="thumbnail">
-											<video style="width: 100%; height: 100%;" class="fc-media fc-video" poster="uploads/video/bubbles_animation/bubbles_animation_banner.jpg" controls><source src="uploads/video/bubbles_animation/bubbles_animation.mp4" type="video/mp4" /><source src="uploads/video/bubbles_animation/bubbles_animation.webm" type="video/webm" /><source src="uploads/video/bubbles_animation/bubbles_animation.ogv" type="video/ogv" /></video>
-										</div><!-- .thumbnail -->
-									</div><!-- .post-heading -->
-									<div class="post-content">
-										<div class="type"></div><!-- .type -->
-										<div class="title">
-											<h2 class="h4"><a href="blog-single.html">Adipisci velite</a></h2>
-											<p class="meta">
-												<span class="meta-category"><a href="#">sed</a></span>
-												<span class="meta-date">3 June</span>
-											</p>
-										</div><!-- .title -->
-										<div class="text">
-											<p>Velit at libero massa praesent accumsan justo malesuada donec diam sapien, lorem dolor feugiat aptent sapien etiam cubilia orci ornare <a href="blog-single.html">...more...</a></p>
-										</div><!-- .text -->
-									</div><!-- .post-content -->
-								</article><!-- .post -->
-								<article class="post post-latest post-type-image">
-									<div class="post-heading">
-										<div class="thumbnail">
-											<a class="link" href="blog-single.html">
-												<span class="btn btn-icon-link"></span>
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-											</a>
-										</div><!-- .thumbnail -->
-									</div><!-- .post-heading -->
-									<div class="post-content">
-										<div class="type"></div><!-- .type -->
-										<div class="title">
-											<h2 class="h4"><a href="blog-single.html">Neque porro quisquam est, qui</a></h2>
-											<p class="meta">
-												<span class="meta-category"><a href="#">eget</a> / <a href="#">commodo</a></span>
-												<span class="meta-date">24 May</span>
-											</p>
-										</div><!-- .title -->
-										<div class="text">
-											<p>Donec nostra aliquam leo felis vehicula nec ad, nec interdum nisl accumsan curabitur aliquet, nunc tristique eros tempor arcu aenean <a href="blog-single.html">...more...</a></p>
-										</div><!-- .text -->
-									</div><!-- .post-content -->
-								</article><!-- .post -->
-								<article class="post post-latest post-type-vimeo">
-									<div class="post-heading">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceOut"><div>bounceOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOut"><div>bounceOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOut"><div>bounceOut</div></div></div>
+				</div>
 
-										<div class="thumbnail">
-											<iframe src="//player.vimeo.com/video/35565030" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-										</div><!-- .thumbnail -->
-									</div><!-- .post-heading -->
-									<div class="post-content">
-										<div class="type"></div><!-- .type -->
-										<div class="title">
-											<h2 class="h4"><a href="blog-single.html">Architecto beatae vitae</a></h2>
-											<p class="meta">
-												<span class="meta-category"><a href="#">vel</a> / <a href="#">diam</a> / <a href="#">vitae</a></span>
-												<span class="meta-date">9 Aug</span>
-											</p>
-										</div><!-- .title -->
-										<div class="text">
-											<p>Eget condimentum per condimentum est vehicula habitasse id ad convallis est, fames ultricies euismod inceptos vel ac eleifend augue suscipit <a href="blog-single.html">...more...</a></p>
-										</div><!-- .text -->
-									</div><!-- .post-content -->
-								</article><!-- .post -->
-								<article class="post post-latest post-type-gallery">
-									<div class="post-heading">
-										<div class="thumbnail">
-											<div class="slider">
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-											</div><!-- .slider -->
-										</div><!-- .thumbnail -->
-									</div><!-- .post-heading -->
-									<div class="post-content">
-										<div class="type"></div><!-- .type -->
-										<div class="title">
-											<h2 class="h4"><a href="blog-single.html">Quis nostrum exercitationem</a></h2>
-											<p class="meta">
-												<span class="meta-category"><a href="#">non</a> / <a href="#">commodo</a> / <a href="#">diam</a> / <a href="#">nulla</a></span>
-												<span class="meta-date">24 Sept</span>
-											</p>
-										</div><!-- .title -->
-										<div class="text">
-											<p>Sociosqu eu est libero suscipit primis velit ipsum curabitur suscipit massa, curabitur mi semper libero turpis in mattis egestas porttitor <a href="blog-single.html">...more...</a></p>
-										</div><!-- .text -->
-									</div><!-- .post-content -->
-								</article><!-- .post -->
-								<article class="post post-latest post-type-image">
-									<div class="post-heading">
-										<div class="thumbnail">
-											<a class="link" href="blog-single.html">
-												<span class="btn btn-icon-link"></span>
-												<img src="uploads/images/content/image_L.jpg" alt="Image">
-											</a>
-										</div><!-- .thumbnail -->
-									</div><!-- .post-heading -->
-									<div class="post-content">
-										<div class="type"></div><!-- .type -->
-										<div class="title">
-											<h2 class="h4"><a href="blog-single.html">Amet, consectetur adipisicing elit</a></h2>
-											<p class="meta">
-												<span class="meta-category"><a href="#">dapibus</a> / <a href="#">faucibus</a></span>
-												<span class="meta-date">15 Oct</span>
-											</p>
-										</div><!-- .title -->
-										<div class="text">
-											<p>Sodales suspendisse sagittis velit odio interdum vulputate donec, ipsum pulvinar sollicitudin platea ad primis, eget convallis sit eleifend fusce curabitur <a href="blog-single.html">...more...</a></p>
-										</div><!-- .text -->
-									</div><!-- .post-content -->
-								</article><!-- .post -->
-							</div><!-- .carousel -->
-						</div><!-- .carousel-wrap -->
-					</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceOutDown"><div>bounceOutDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutDown"><div>bounceOutDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutDown"><div>bounceOutDown</div></div></div>
+				</div>
 
-				</div><!-- .container-out -->
-				<div class="container-out container-light">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceOutLeft"><div>bounceOutLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutLeft"><div>bounceOutLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutLeft"><div>bounceOutLeft</div></div></div>
+				</div>
 
-					<div class="title title-section">
-						<h2>Get to know our clients</h2>
-						<p>Ut pellentesque augue dui.</p>
-						<span class="sticker">
-							<i class="icon icomoon-earth"></i>
-						</span>
-					</div><!-- .title.title-section -->
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceOutRight"><div>bounceOutRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutRight"><div>bounceOutRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutRight"><div>bounceOutRight</div></div></div>
+				</div>
 
-					<div data-animate="slideInRight">
-						<div class="carousel-wrap">
-							<ul class="carousel-nav">
-								<li><a href="#" class="btn btn-icon-prev prev"></a></li>
-								<li><a href="#" class="btn btn-icon-next next"></a></li>
-							</ul><!-- .carousel-nav -->
-							<div class="clients carousel" data-visible="4">
-								<div class="client">
-									<img src="uploads/images/clients/client.png" alt="Client">
-								</div>
-								<div class="client">
-									<img src="uploads/images/clients/client.png" alt="Client">
-								</div>
-								<div class="client">
-									<img src="uploads/images/clients/client.png" alt="Client">
-								</div>
-								<div class="client">
-									<img src="uploads/images/clients/client.png" alt="Client">
-								</div>
-								<div class="client">
-									<img src="uploads/images/clients/client.png" alt="Client">
-								</div>
-							</div><!-- .carousel -->
-						</div><!-- .carousel-wrap -->
-					</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="bounceOutUp"><div>bounceOutUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutUp"><div>bounceOutUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="bounceOutUp"><div>bounceOutUp</div></div></div>
+				</div>
 
-				</div><!-- .container-out -->
-				<div class="container-out container-image" style="background-image:url(uploads/images/page/sections/section.jpg)">
+				<div class="push"></div>
 
-					<div class="title title-section">
-						<h2>What people say about us?</h2>
-						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
-						<span class="sticker">
-							<i class="icon fa fa-thumbs-o-up"></i>
-						</span>
-					</div><!-- .title.title-section -->
+				<div class="title title-main text-center">
+					<h4>Fading Entrances</h4>
+				</div>
 
-					<div data-animate="bounceIn">
-						<div class="testimonial-wrap">
-							<div class="testimonial-outer">
-								<ul class="testimonial" data-auto="true">
-									<li>
-										<div class="testimonial-content">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeIn"><div>fadeIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeIn"><div>fadeIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeIn"><div>fadeIn</div></div></div>
+				</div>
 
-											<div class="text">
-												<p>Erat himenaeos curabitur praesent maecenas phasellus lectus taciti in fermentum hendrerit, habitant ipsum morbi senectus purus feugiat nunc nec mollis</p>
-											</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInDown"><div>fadeInDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInDown"><div>fadeInDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInDown"><div>fadeInDown</div></div></div>
+				</div>
 
-										</div><!-- .testimonial-content  -->
-										<div class="testimonial-heading">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInDownBig"><div>fadeInDownBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInDownBig"><div>fadeInDownBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInDownBig"><div>fadeInDownBig</div></div></div>
+				</div>
 
-											<div class="title">
-												<h4>John Doe</h4>
-												<p class="position">Microsoft</p>
-											</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInLeft"><div>fadeInLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInLeft"><div>fadeInLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInLeft"><div>fadeInLeft</div></div></div>
+				</div>
 
-										</div><!-- .testimonial-heading  -->
-									</li>
-									<li>
-										<div class="testimonial-content">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInLeftBig"><div>fadeInLeftBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInLeftBig"><div>fadeInLeftBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInLeftBig"><div>fadeInLeftBig</div></div></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInRight"><div>fadeInRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInRight"><div>fadeInRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInRight"><div>fadeInRight</div></div></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInRightBig"><div>fadeInRightBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInRightBig"><div>fadeInRightBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInRightBig"><div>fadeInRightBig</div></div></div>
+				</div>
 
-											<div class="text">
-												<p>Tellus vivamus enim senectus justo donec porta ante, eleifend curabitur consectetur elit augue potenti, et commodo accumsan volutpat dictum elit</p>
-											</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInUp"><div>fadeInUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInUp"><div>fadeInUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInUp"><div>fadeInUp</div></div></div>
+				</div>
 
-										</div><!-- .testimonial-content  -->
-										<div class="testimonial-heading">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeInUpBig"><div>fadeInUpBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInUpBig"><div>fadeInUpBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeInUpBig"><div>fadeInUpBig</div></div></div>
+				</div>
 
-											<div class="title">
-												<h4>Mary Smith</h4>
-												<p class="position">themeforest</p>
-											</div>
+				<div class="push"></div>
 
-										</div><!-- .testimonial-heading  -->
-									</li>
-									<li>
-										<div class="testimonial-content">
+				<div class="title title-main text-center">
+					<h4>Fading Exits</h4>
+				</div>
 
-											<div class="text">
-												<p>Eu venenatis auctor vivamus auctor dictum mattis blandit, habitant urna est elementum habitant ullamcorper, euismod sem quisque dolor pharetra imperdiet</p>
-											</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOut"><div>fadeOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOut"><div>fadeOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOut"><div>fadeOut</div></div></div>
+				</div>
 
-										</div><!-- .testimonial-content  -->
-										<div class="testimonial-heading">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutDown"><div>fadeOutDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutDown"><div>fadeOutDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutDown"><div>fadeOutDown</div></div></div>
+				</div>
 
-											<div class="title">
-												<h4>Daniel Anderson</h4>
-												<p class="position">apple</p>
-											</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutDownBig"><div>fadeOutDownBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutDownBig"><div>fadeOutDownBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutDownBig"><div>fadeOutDownBig</div></div></div>
+				</div>
 
-										</div><!-- .testimonial-heading  -->
-									</li>
-									<li>
-										<div class="testimonial-content">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutLeft"><div>fadeOutLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutLeft"><div>fadeOutLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutLeft"><div>fadeOutLeft</div></div></div>
+				</div>
 
-											<div class="text">
-												<p>Nec urna curabitur suscipit elit donec vitae etiam justo lorem iaculis, integer sed suspendisse semper etiam pellentesque ultrices varius auctor</p>
-											</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutLeftBig"><div>fadeOutLeftBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutLeftBig"><div>fadeOutLeftBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutLeftBig"><div>fadeOutLeftBig</div></div></div>
+				</div>
 
-										</div><!-- .testimonial-content  -->
-										<div class="testimonial-heading">
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutRight"><div>fadeOutRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutRight"><div>fadeOutRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutRight"><div>fadeOutRight</div></div></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutRightBig"><div>fadeOutRightBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutRightBig"><div>fadeOutRightBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutRightBig"><div>fadeOutRightBig</div></div></div>
+				</div>
 
-											<div class="title">
-												<h4>Jane Johnson</h4>
-												<p class="position">google</p>
-											</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutUp"><div>fadeOutUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutUp"><div>fadeOutUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutUp"><div>fadeOutUp</div></div></div>
+				</div>
 
-										</div><!-- .testimonial-heading  -->
-									</li>
-								</ul><!-- .testimonial -->
-							</div><!-- .testimonial-outer -->
-							<div class="testimonial-pagi"></div>
-						</div><!-- .testimonial-wrap -->
-					</div>
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="fadeOutUpBig"><div>fadeOutUpBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutUpBig"><div>fadeOutUpBig</div></div></div>
+					<div class="col-xs-4"><div data-animate="fadeOutUpBig"><div>fadeOutUpBig</div></div></div>
+				</div>
 
-				</div><!-- .container-out -->
+				<div class="push"></div>
+
+				<div class="title title-main text-center">
+					<h4>Flippers</h4>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="flip"><div>flip</div></div></div>
+					<div class="col-xs-4"><div data-animate="flip"><div>flip</div></div></div>
+					<div class="col-xs-4"><div data-animate="flip"><div>flip</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="flipInX"><div>flipInX</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipInX"><div>flipInX</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipInX"><div>flipInX</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="flipInY"><div>flipInY</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipInY"><div>flipInY</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipInY"><div>flipInY</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="flipOutX"><div>flipOutX</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipOutX"><div>flipOutX</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipOutX"><div>flipOutX</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="flipOutY"><div>flipOutY</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipOutY"><div>flipOutY</div></div></div>
+					<div class="col-xs-4"><div data-animate="flipOutY"><div>flipOutY</div></div></div>
+				</div>
+
+				<div class="push"></div>
+
+				<div class="title title-main text-center">
+					<h4>Lightspeed</h4>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="lightSpeedIn"><div>lightSpeedIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="lightSpeedIn"><div>lightSpeedIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="lightSpeedIn"><div>lightSpeedIn</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="lightSpeedOut"><div>lightSpeedOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="lightSpeedOut"><div>lightSpeedOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="lightSpeedOut"><div>lightSpeedOut</div></div></div>
+				</div>
+
+				<div class="push"></div>
+
+				<div class="title title-main text-center">
+					<h4>Rotating Entrances</h4>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateIn"><div>rotateIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateIn"><div>rotateIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateIn"><div>rotateIn</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateInDownLeft"><div>rotateInDownLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInDownLeft"><div>rotateInDownLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInDownLeft"><div>rotateInDownLeft</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateInDownRight"><div>rotateInDownRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInDownRight"><div>rotateInDownRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInDownRight"><div>rotateInDownRight</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateInUpLeft"><div>rotateInUpLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInUpLeft"><div>rotateInUpLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInUpLeft"><div>rotateInUpLeft</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateInUpRight"><div>rotateInUpRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInUpRight"><div>rotateInUpRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateInUpRight"><div>rotateInUpRight</div></div></div>
+				</div>
+
+				<div class="push"></div>
+
+				<div class="title title-main text-center">
+					<h4>Rotating Exits</h4>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateOut"><div>rotateOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOut"><div>rotateOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOut"><div>rotateOut</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateOutDownLeft"><div>rotateOutDownLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutDownLeft"><div>rotateOutDownLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutDownLeft"><div>rotateOutDownLeft</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateOutDownRight"><div>rotateOutDownRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutDownRight"><div>rotateOutDownRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutDownRight"><div>rotateOutDownRight</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateOutUpLeft"><div>rotateOutUpLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutUpLeft"><div>rotateOutUpLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutUpLeft"><div>rotateOutUpLeft</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rotateOutUpRight"><div>rotateOutUpRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutUpRight"><div>rotateOutUpRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="rotateOutUpRight"><div>rotateOutUpRight</div></div></div>
+				</div>
+
+				<div class="push"></div>
+
+				<div class="title title-main text-center">
+					<h4>Sliders</h4>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="slideInDown"><div>slideInDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideInDown"><div>slideInDown</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideInDown"><div>slideInDown</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="slideInLeft"><div>slideInLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideInLeft"><div>slideInLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideInLeft"><div>slideInLeft</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="slideInRight"><div>slideInRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideInRight"><div>slideInRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideInRight"><div>slideInRight</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="slideOutLeft"><div>slideOutLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideOutLeft"><div>slideOutLeft</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideOutLeft"><div>slideOutLeft</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="slideOutRight"><div>slideOutRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideOutRight"><div>slideOutRight</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideOutRight"><div>slideOutRight</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="slideOutUp"><div>slideOutUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideOutUp"><div>slideOutUp</div></div></div>
+					<div class="col-xs-4"><div data-animate="slideOutUp"><div>slideOutUp</div></div></div>
+				</div>
+
+				<div class="push"></div>
+
+				<div class="title title-main text-center">
+					<h4>Specials</h4>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="hinge"><div>hinge</div></div></div>
+					<div class="col-xs-4"><div data-animate="hinge"><div>hinge</div></div></div>
+					<div class="col-xs-4"><div data-animate="hinge"><div>hinge</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rollIn"><div>rollIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="rollIn"><div>rollIn</div></div></div>
+					<div class="col-xs-4"><div data-animate="rollIn"><div>rollIn</div></div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4"><div data-animate="rollOut"><div>rollOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="rollOut"><div>rollOut</div></div></div>
+					<div class="col-xs-4"><div data-animate="rollOut"><div>rollOut</div></div></div>
+				</div>
+
 			</div><!-- #content -->
-
 		</div><!-- .container -->
 	</div><!-- #page-content -->
 
@@ -1763,17 +1619,6 @@
 
 	<!-- FlickrFeed  -->
 	<script type="text/javascript" src="js/library/jFlickrFeed/jflickrfeed.min.js"></script>
-
-	<!-- carouFredSel -->
-	<script type="text/javascript" src="js/library/carouFredSel/jquery.carouFredSel-6.2.1-packed.js"></script>
-
-	<!-- Mediaelementjs -->
-	<script type="text/javascript" src="js/library/mediaelementjs/mediaelement-and-player.min.js"></script>
-
-	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-	<script type="text/javascript" src="js/library/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/library/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="js/slider.min.js"></script>
 
 	<!-- Main theme javaScript file -->
 	<script type="text/javascript" src="js/theme.min.js"></script>
