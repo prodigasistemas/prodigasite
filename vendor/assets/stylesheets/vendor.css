@@ -10,7 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require vendor
- *= require_tree .
- *= require_self
+ *= require library/bootstrap/bootstrap.min
+ *= require fonts/awesome/css/font-awesome
+ *= require fonts/icomoon/style
+ *= require theme
+ *= require theme-elements
+ *= require color/orange.css
+ *= require library/slider-revolution/css/settings.css
+ *= require library/animate/animate.min
+ *= require styles
  */
