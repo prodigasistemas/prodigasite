@@ -1259,7 +1259,7 @@ a.avatar:hover > .btn {
 #fancybox-loading div {
 	width: 40px;
 	height: 40px;
-	background: url('../img/loader-light.gif') center center no-repeat;
+	background: url('/assets/img/loader-light.gif') center center no-repeat;
 }
 .fancybox-wrap img {
 	max-width: 100%;
@@ -2297,7 +2297,7 @@ body #page-header .breadcrumbs a {
 	/* Twitter */
 	#tweets {
 		min-height: 100px;
-		background: url(../img/loader-dark.gif) center center no-repeat transparent;
+		background: url(/assets/img/loader-dark.gif) center center no-repeat transparent;
 	}
 		#tweets .tweet {
 			position: relative;
@@ -3366,7 +3366,7 @@ body > #boxed #header {
 	z-index: 1;
 	padding:0;
 	overflow:hidden;
-	background: url(../img/loader-dark.gif) center center no-repeat transparent;
+	background: url(/assets/img/loader-dark.gif) center center no-repeat transparent;
 }
 .page-slider-wrap.created {
 	background: none;
@@ -3399,7 +3399,7 @@ body > #boxed #header {
 
 		/* Loader */
 		.tp-loader {
-			background: url(../img/loader-dark.gif) center center no-repeat transparent;
+			background: url(/assets/img/loader-dark.gif) center center no-repeat transparent;
 			width: 32px;
 			height: 32px;
 			margin-top: -16px;
@@ -5118,7 +5118,7 @@ address .row {
 	.form-inner {
 		-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 		box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-		background: url("../img/form-bg.jpg");
+		background: url("/assets/img/form-bg.jpg");
 		padding: 15px;
 		margin-bottom: 30px;
 		animation: animatedBackground 20s linear infinite;
@@ -5132,7 +5132,7 @@ address .row {
 	}
 	@media all and (-webkit-min-device-pixel-ratio: 1.5) {
 		.form-inner {
-			background-image: url("../img/form-bg@2x.jpg");
+			background-image: url("/assets/img/form-bg@2x.jpg");
 			background-size: 170px 170px;
 		}
 	}

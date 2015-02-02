@@ -1256,11 +1256,11 @@
 	position: relative;
 	overflow: hidden;
 	height: 100px;
-	background: url(../img/loader-dark.gif) center center no-repeat transparent;
+	background: url(/assets/img/loader-dark.gif) center center no-repeat transparent;
 }
 	.container-out.container-dark .carousel-wrap,
 	.container-out.container-image .carousel-wrap {
-		background-image: url(../img/loader-light.gif);
+		background-image: url(/assets/img/loader-light.gif);
 	}
 .carousel-wrap.created {
 	overflow: visible;
