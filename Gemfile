@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'high_voltage', '~> 2.2.1'
 gem 'thin'
+gem 'foreman'
 
 group :development, :test do
   gem 'byebug'
@@ -23,4 +24,5 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'puma'
 end
