@@ -11,11 +11,11 @@
  * file per style scope.
  *
  *= require library/bootstrap/bootstrap.min
- *= require fonts/awesome/css/font-awesome
- *= require fonts/icomoon/style
+ *= require font-awesome
+ *= require icomoon
  *= require theme
  *= require theme-elements
- *= require color/orange.css
+ *= require color/blue.css
  *= require library/slider-revolution/css/settings.css
  *= require library/animate/animate.min
  *= require styles
