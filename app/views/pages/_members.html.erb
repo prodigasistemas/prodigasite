@@ -1,0 +1,29 @@
+<% members.each_with_index do |member, index| %> 
+  <div class="col-sm-4" data-animate="flipInY">
+    <div class="member">
+      <div class="member-heading">
+        <a class="userpic">
+          <span class="btn btn-icon-user"></span>
+          <%= image_tag "time/#{member[:photo]}.jpg", alt: member[:name] %>
+        </a>
+
+        <ul class="social animation animation-from-right">
+          <% if member[:linkedin] %>
+            <li><a href="http://br.linkedin.com/<%= member[:linkedin] %>" target="_blank" class="linkedin"></a></li>
+          <% end %>
+          <% if member[:twitter] %>
+            <li><a href="https://twitter.com/<%= member[:twitter] %>" target="_blank" class="twitter"></a></li>
+          <% end %>
+          <% if member[:facebook] %>
+            <li><a href="https://www.facebook.com/<%= member[:facebook] %>" target="_blank" class="facebook"></a></li>
+          <% end %>
+        </ul>
+
+        <div class="title">
+          <h4><%= member[:name] %></h4>
+          <p><%= member[:job] %></p>
+        </div>
+      </div><!-- .member-heading -->
+    </div><!-- .member -->
+  </div><!-- .col-sm-4 -->
+<% end %>
