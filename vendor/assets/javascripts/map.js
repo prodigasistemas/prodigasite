@@ -34,8 +34,8 @@ $(function () {
                                     '<div class="col-xs-8"><a href="mailto:contato@prodigasistemas.com.br">contato@prodigasistemas.com.br</a></div>'+
                                 '</div>'+
                             '</address>',
-            latitude: -1.4602,
-            longitude: -48.4999185
+            latitude: -1.4622533,
+            longitude: -48.4984647
         },{
             html        :   '<h4>São Paulo:</h4>'+
                             '<address>'+
@@ -55,8 +55,8 @@ $(function () {
           latitude: -23.5155903,
           longitude: -46.5657992
         }],
-        latitude    = -1.4602,
-        longitude   = -48.4999185
+        latitude    = -1.4622533,
+        longitude   = -48.4984647
         zoom        = 16,
         img         = "/assets/img/pin.png";
 

@@ -2286,6 +2286,14 @@ body #page-header .breadcrumbs a {
 			content: "\e7a6";
 		}
 
+		/*.social a.linkedin,*/
+		.social a.linkedin:hover {
+			background-color: #2980b9;
+		}
+		.social a.linkedin:before {
+			content: "\e79f";
+		}
+
 /* 	:: ::::::: :: */
 /* 	:: WIDGET  :: */
 /* 	:: ::::::: :: */
@@ -5272,7 +5280,8 @@ address .row {
 		}
 			.member-heading  .userpic img {
 				max-width: 100%;
-				height: auto;
+				/*height: auto;*/
+				height: 216px;
 			}
 
 		.member-heading .social {
