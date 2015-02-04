@@ -11,8 +11,8 @@
  * file per style scope.
  *
  *= require library/bootstrap/bootstrap.min
- *= require fonts/awesome/css/font-awesome
- *= require fonts/icomoon/style
+ *= require font-awesome
+ *= require icomoon
  *= require theme
  *= require theme-elements
  *= require color/blue.css
