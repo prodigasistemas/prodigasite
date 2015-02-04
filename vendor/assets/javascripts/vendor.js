@@ -19,9 +19,9 @@
 //= require library/jFlickrFeed/jflickrfeed.min
 //= require library/carouFredSel/jquery.carouFredSel-6.2.1-packed
 //= require library/isotope/isotope.pkgd.min
-//= require map.min
+//= require map
 //= require library/mediaelementjs/mediaelement-and-player.min
 //= require library/slider-revolution/js/jquery.themepunch.tools.min
 //= require library/slider-revolution/js/jquery.themepunch.revolution.min
 //= require slider.min
-//= require theme.min
+//= require theme

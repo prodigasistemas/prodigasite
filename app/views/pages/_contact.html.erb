@@ -1,0 +1,133 @@
+<div class="contact-switcher">
+
+  <!-- Google Maps -->
+  <div id="googlemaps" class="map-cover"></div>
+
+  <div class="address current">
+    <a href="#" class="btn to-form">Envie uma Mensagem</a>
+    <div class="address-inner">
+      <div class="title">
+        <h2 class="h3">Onde nos Encontrar?</h2>
+      </div>
+      <div class="text">
+        <p>A Pródiga Sistemas possui atualmente escritórios em São Paulo e Belém.</p>
+      </div>
+      <div class="title">
+        <h4>Belém</h4>
+      </div>
+      <address>
+        <div class="row">
+          <div class="col-sm-4">
+            <b>Endereço:</b>
+          </div>
+          <div class="col-sm-8">
+            Rua Angelo Custódio,<br>
+            728A, Cidade Velha,<br>
+            66020-710, Belém-PA
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <b>Contato:</b>
+          </div>
+          <div class="col-sm-8">
+            (91) 3038-8821 / (91) 3038-8824
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <b>Email:</b>
+          </div>
+          <div class="col-sm-8">
+            <a href="mailto:contato@prodigasistemas.com.br">contato@prodigasistemas.com.br</a>
+          </div>
+        </div>
+      </address>
+      <hr>
+      <div class="title">
+        <h4>São Paulo</h4>
+      </div>
+      <address>
+        <div class="row">
+          <div class="col-sm-4">
+            <b>Endereço:</b>
+          </div>
+          <div class="col-sm-8">
+            Rua Cabo Romeu Casa Grande,<br />
+            466, Pq. Novo Mundo,<br />
+            02180-060, São Paulo-SP
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <b>Contato:</b>
+          </div>
+          <div class="col-sm-8">
+            (91) 3038-8821 / (91) 3038-8824
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <b>Email:</b>
+          </div>
+          <div class="col-sm-8">
+            <a href="mailto:contato@prodigasistemas.com.br">contato@prodigasistemas.com.br</a>
+          </div>
+        </div>
+      </address>
+    </div><!-- .address-inner -->
+  </div><!-- .address -->
+  <div class="form">
+    <a href="#" class="btn to-contact">Onde nos Encontrar?</a>
+    <div class="form-inner">
+      <%= form_tag contacts_path, :remote => true, :authenticity_token => true, id: "contact-form", class: "form-validate" do %>
+
+        <div class="title">
+          <h2 class="h3">Enviar Mensagem</h2>
+        </div>
+
+        <div class="text">
+          <p>Estamos ansiosos para receber o seu contato e poder ajudá-lo.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+
+            <div class="form-field">
+              <div class="placeholder">
+                <label for="name">Nome<span class="require">required</span></label>
+                <input class="form-control" type="text" maxlength="100" name="name" id="name" minlength="2" required />
+              </div>
+            </div><!-- .form-field -->
+
+          </div><!-- .col-sm-6 -->
+          <div class="col-sm-6">
+
+            <div class="form-field">
+              <div class="placeholder">
+                <label for="email">Email<span class="require">required</span></label>
+                <input class="form-control" type="email" name="email" id="email" required />
+              </div>
+            </div><!-- .form-field -->
+
+          </div><!-- .col-sm-6 -->
+        </div><!-- .row -->
+        <div class="form-field">
+          <div class="placeholder">
+            <label for="phone">Telefone<span class="require">required</span></label>
+            <input class="form-control" type="text" name="phone" id="phone" required />
+          </div>
+        </div><!-- .form-field -->
+        <div class="form-field">
+          <div class="placeholder">
+            <label for="message">Mesangem<span class="require">required</span></label>
+            <textarea class="form-control" maxlength="5000" rows="10" name="message" id="message" required></textarea>
+          </div>
+        </div><!-- .form-field -->
+        <div class="form-field text-right">
+          <input type="submit" value="Enviar" class="btn">
+        </div><!-- .form-field -->
+      <% end %>
+    </div><!-- .form-inner -->
+  </div><!-- .form -->
+</div><!-- .contact-switcher -->

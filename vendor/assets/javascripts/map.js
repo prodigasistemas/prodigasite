@@ -19,54 +19,46 @@ $(function () {
     if (googlemaps.length) {
 
         var markers = [{
-            html        :   '<h4>Office №1:</h4>'+
+            html        :   '<h4>Belém:</h4>'+
                             '<address>'+
                                 '<div class="row">'+
-                                    '<div class="col-xs-4"><b>Address:</b></div>'+
-                                    '<div class="col-xs-8">322 Victoria Street,<br>Darlinghurst NSW 2010,<br>Australia</div>'+
+                                    '<div class="col-xs-4"><b>Endereço:</b></div>'+
+                                    '<div class="col-xs-8">Rua Angelo Custodio,<br>728A, Cidade Velha,<br>66020-710, Belém-PA</div>'+
                                 '</div>'+
                                 '<div class="row">'+
-                                    '<div class="col-xs-4"><b>Phone:</b></div>'+
-                                    '<div class="col-xs-8">1800-2233-4455</div>'+
-                                '</div>'+
-                                '<div class="row">'+
-                                    '<div class="col-xs-4"><b>Fax:</b></div>'+
-                                    '<div class="col-xs-8">1800-2233-4455</div>'+
+                                    '<div class="col-xs-4"><b>Contato:</b></div>'+
+                                    '<div class="col-xs-8">(91) 3038-8821 / (91) 3038-8824</div>'+
                                 '</div>'+
                                 '<div class="row">'+
                                     '<div class="col-xs-4"><b>Email:</b></div>'+
-                                    '<div class="col-xs-8"><a href="mailto:victoria@yoursite.com">victoria@yoursite.com</a></div>'+
+                                    '<div class="col-xs-8"><a href="mailto:contato@prodigasistemas.com.br">contato@prodigasistemas.com.br</a></div>'+
                                 '</div>'+
                             '</address>',
-            latitude    : -33.87695388579145,
-            longitude   : 151.22183918952942
+            latitude: -1.4602,
+            longitude: -48.4999185
         },{
-            html        :   '<h4>Office №2:</h4>'+
+            html        :   '<h4>São Paulo:</h4>'+
                             '<address>'+
                                 '<div class="row">'+
-                                    '<div class="col-xs-4"><b>Address:</b></div>'+
-                                    '<div class="col-xs-8">26 Macdonald Street,<br />Paddington NSW 2021,<br />Australia</div>'+
+                                    '<div class="col-xs-4"><b>Endereço:</b></div>'+
+                                    '<div class="col-xs-8">Rua Cabo Romeu Casa Grande,<br />466, Pq. Novo Mundo,<br />02180-060, São Paulo-SP</div>'+
                                 '</div>'+
                                 '<div class="row">'+
-                                    '<div class="col-xs-4"><b>Phone:</b></div>'+
-                                    '<div class="col-xs-8">1800-6677-8899</div>'+
-                                '</div>'+
-                                '<div class="row">'+
-                                    '<div class="col-xs-4"><b>Fax:</b></div>'+
-                                    '<div class="col-xs-8">1800-6677-8899</div>'+
+                                    '<div class="col-xs-4"><b>Contato:</b></div>'+
+                                    '<div class="col-xs-8">(91) 3038-8821 / (91) 3038-8824</div>'+
                                 '</div>'+
                                 '<div class="row">'+
                                     '<div class="col-xs-4"><b>Email:</b></div>'+
-                                    '<div class="col-xs-8"><a href="mailto:macdonald@yoursite.com">macdonald@yoursite.com</a></div>'+
+                                    '<div class="col-xs-8"><a href="mailto:contato@prodigasistemas.com.br">contato@prodigasistemas.com.br</a></div>'+
                                 '</div>'+
                             '</address>',
-            latitude: -33.88115365546491,
-            longitude: 151.2246260046959
+          latitude: -23.5155903,
+          longitude: -46.5657992
         }],
-        latitude    = -33.87895388579145,
-        longitude   = 151.22283918952942,
+        latitude    = -1.4602,
+        longitude   = -48.4999185
         zoom        = 16,
-        img         = "img/pin.png";
+        img         = "/assets/img/pin.png";
 
         google.maps.event.addDomListener(window, 'load', function() {
 
