@@ -14,7 +14,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'high_voltage', '~> 2.2.1'
 gem 'thin'
-gem 'foreman'
+
+group :development do
+  gem 'quiet_assets'
+  gem 'better_errors'
+  gem 'foreman'
+end
 
 group :development, :test do
   gem 'byebug'
