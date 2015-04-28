@@ -12,10 +12,10 @@ class ApplicationController < ActionController::Base
 
   def members
     @members = [
-      { name: "Joelma Gonçalves", photo: "joelma", job: "Gerente de Projetos", linkedin: "pub/joelma-gon%C3%A7alves/47/313/86", facebook: "joelma.goncalves.921" },
+      { name: "Joelma Gonçalves", photo: "joelma", job: "Gerente de Projetos", linkedin: "pub/joelma-gon%C3%A7alves/47/313/86", twitter: "joelmag33331053", facebook: "joelma.goncalves.921" },
       { name: "Paulo Igor", photo: "pigor", job: "Engenheiro de Software", linkedin: "in/pigodinho/pt", twitter: "pigodinho", facebook: "pigodinho"},
       { name: "Jaco Júnior", photo: "junior", job: "Analista de Negócio", linkedin: "pub/jaco-j%C3%BAnior/86/620/372", facebook: "jaco.junior1"},
-      { name: "Ana Karla", photo: "ana", job: "Analista de Negócio", twitter: "anakgoncalves5", facebook: "ana.karla.92351"},
+      { name: "Ana Karla", photo: "ana", job: "Analista de Negócio", linkedin: "pub/ana-karla/b2/40b/4b", twitter: "anakgoncalves5", facebook: "ana.karla.92351"},
       { name: "Pamela Gatinho", photo: "pamela", job: "Engenheira de Software", linkedin: "pub/pamela-gatinho/19/444/991/pt", twitter: "pamelagatinho", facebook: "pamela.gatinho"},
       { name: "Adriana Muniz", photo: "adriana", job: "Engenheira de Software", linkedin: "pub/adriana-muniz/21/308/915", twitter: "adrianamuniz", facebook: "munizadriana"},
       { name: "Felipe Santos", photo: "felipe", job: "Engenheiro de Software", linkedin: "pub/felipe-santos-marques/40/89a/546", facebook: "felipesantos2089"},
@@ -25,7 +25,8 @@ class ApplicationController < ActionController::Base
       { name: "Luiz Sanches", photo: "sanches", job: "Engenheiro de Software", linkedin: "in/luizgrsanches/pt", twitter: "luizsanxes", facebook: "luizgrsanches"},
       { name: "Fábio Aguiar", photo: "fabio", job: "Analista de Negócio", linkedin: "in/fabiogr/pt", twitter: "fabyogr", facebook: "fabyogr"},
       { name: "Felipe Iketani", photo: "iketani", job: "Engenheiro de Software", linkedin: "pub/felipe-iketani/26/103/a8a", twitter: "felipe_ik", facebook: "felipe.iketani"},
-      { name: "Ricardo Casseb", photo: "casseb", job: "Engenheiro de Software", linkedin: "pub/ricardo-casseb/19/524/534/pt", twitter: "rcasseb", facebook: "ricardocasseb"}
+      { name: "Ricardo Casseb", photo: "casseb", job: "Engenheiro de Software", linkedin: "pub/ricardo-casseb/19/524/534/pt", twitter: "rcasseb", facebook: "ricardocasseb"},
+      { name: "Camila Godinho", photo: "camila", job: "Analista de Negócio", linkedin: "pub/camila-ten%C3%B3rio-godinho/19/a54/147/pt", twitter: "milokatenorio", facebook: "milokatenorio"}
     ]
   end
 end
