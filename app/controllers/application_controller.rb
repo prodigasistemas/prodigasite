@@ -27,7 +27,7 @@ class ApplicationController < ActionController::Base
       { name: "Felipe Iketani", photo: "iketani", job: "Engenheiro de Software", linkedin: "pub/felipe-iketani/26/103/a8a", twitter: "felipe_ik", facebook: "felipe.iketani"},
       { name: "Ricardo Casseb", photo: "casseb", job: "Engenheiro de Software", linkedin: "pub/ricardo-casseb/19/524/534/pt", twitter: "rcasseb", facebook: "ricardocasseb"},
       { name: "Camila Godinho", photo: "camila", job: "Analista de Negócio", linkedin: "pub/camila-ten%C3%B3rio-godinho/19/a54/147/pt", twitter: "milokatenorio", facebook: "milokatenorio"},
-      { name: "Gustavo Carvalho", photo: "gustavo", job: "Engenheiro de Software", linkedin: "in/gustavobcosta", twitter: "gugabcosta", facebook: "gugabcosta"},
+      { name: "Gustavo Costa", photo: "gustavo", job: "Engenheiro de Software", linkedin: "in/gustavobcosta", twitter: "gugabcosta", facebook: "gugabcosta"},
       { name: "Reinaldo Viana", photo: "reinaldo", job: "Engenheiro de Software", linkedin: "in/reinaldoviana", facebook: "reinaldo.viana.731"},
       { name: "Mateus Linhares", photo: "mateus", job: "Engenheiro de Software", linkedin: "in/mateuslinhares", twitter: "mateuslinhares", facebook: "mateus.linhares"}
     ]
