@@ -11,6 +11,10 @@ class ApplicationController < ActionController::Base
   end
 
   def members
+    @projects = [
+      { name: "SISCAT", photo: "siscat" }
+    ]
+
     @members = [
       { name: "Joelma Gonçalves", photo: "joelma", job: "Gerente de Projetos", linkedin: "pub/joelma-gon%C3%A7alves/47/313/86", twitter: "joelmag33331053", facebook: "joelma.goncalves.921" },
       { name: "Paulo Igor", photo: "pigor", job: "Engenheiro de Software", linkedin: "in/pigodinho/pt", twitter: "pigodinho", facebook: "pigodinho"},
