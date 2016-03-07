@@ -12,7 +12,9 @@ class ApplicationController < ActionController::Base
 
   def members
     @projects = [
-      { name: "SISCAT", photo: "siscat" }
+      { name: "SISCAT", photo: "siscat", dialog: "siscat" },
+      { name: "Amapá Shipping", photo: "amapashipping", dialog: "amapashipping" },
+      { name: "uRadiu", photo: "uRadiu", dialog: "uradiu" },
     ]
 
     @members = [
