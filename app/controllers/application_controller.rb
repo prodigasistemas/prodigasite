@@ -16,6 +16,7 @@ class ApplicationController < ActionController::Base
       { name: "Amapá Shipping", photo: "amapashipping", dialog: "amapashipping" },
       { name: "uRadiu", photo: "uRadiu", dialog: "uradiu" },
       { name: "GSAN", photo: "gsan", dialog: "gsan" },
+      { name: "Sistema de Atendimento", photo: "cooperativataxi", dialog: "cooperativataxi" },
     ]
 
     @members = [
