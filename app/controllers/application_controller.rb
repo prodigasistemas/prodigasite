@@ -18,6 +18,7 @@ class ApplicationController < ActionController::Base
       { name: "GSAN", photo: "gsan", dialog: "gsan" },
       { name: "Sistema de Atendimento", photo: "cooperativataxi", dialog: "cooperativataxi" },
       { name: "Controle de Certificados", photo: "certifica", dialog: "certifica" },
+      { name: "Controle de Produção", photo: "senai-producao", dialog: "senaiproducao" },
     ]
 
     @members = [
