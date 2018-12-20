@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'high_voltage', '~> 2.2.1'
 gem 'thin'
+gem 'sprockets', '~>3.7.2'
 
 group :development do
   gem 'quiet_assets'
