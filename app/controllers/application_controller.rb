@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
     ]
 
     @members = [
-      { name: "Joelma Gonçalves", photo: "joelma", job: "Gerente de Projetos", linkedin: "pub/joelma-gon%C3%A7alves/47/313/86", twitter: "joelmag33331053", facebook: "joelma.goncalves.921" },
+      { name: "Joelma Gonçalves", photo: "joelma", job: "Gerente de Projetos", linkedin: "in/joelma-gonçalves-fernandes-08631347", twitter: "joelmag33331053", facebook: "joelma.goncalves.921" },
       { name: "Paulo Igor", photo: "pigor", job: "Engenheiro de Software", linkedin: "in/pigodinho/pt", twitter: "pigodinho", facebook: "pigodinho"},
       { name: "Jaco Júnior", photo: "junior", job: "Analista de Negócio", linkedin: "pub/jaco-j%C3%BAnior/86/620/372", facebook: "jaco.junior1"},
       { name: "Pamela Gatinho", photo: "pamela", job: "Engenheira de Software", linkedin: "pub/pamela-gatinho/19/444/991/pt", twitter: "pamelagatinho", facebook: "pamela.gatinho"},
