@@ -18,3 +18,5 @@
 .DS_Store
 .ruby-version
 .ruby-gemset
+**/credentials
+**/.credentials
