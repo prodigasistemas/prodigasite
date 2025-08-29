@@ -7,7 +7,6 @@ Site institucional da Prodiga Sistemas desenvolvido em Ruby on Rails.
 ### Pré-requisitos
 
 - Docker
-- Docker Compose
 
 ### Configuração
 
@@ -30,14 +29,15 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock ./
-RUN bundle install --without test
+RUN    gem install bundler:1.17.1 \
+    && bundle install --without test
 
 COPY . .
 
 ARG RAILS_ENV
 ENV RAILS_ENV=${RAILS_ENV}
 
-RUN    SECRET_KEY_BASE=$(bundle exec rake secret) ${RAILS_ENV} bundle exec rake assets:precompile \
+RUN    SECRET_KEY_BASE=$(bundle exec rake secret) RAILS_ENV=${RAILS_ENV} bundle exec rake assets:precompile \
     && groupadd -r rails \
     && useradd -r -g rails rails \
     && chown -R rails:rails /app
@@ -46,41 +46,9 @@ USER rails
 
 EXPOSE 3000 4000
 
-CMD ["sh", "-c", "SECRET_KEY_BASE=$(bundle exec rake secret) bundle exec puma -C config/puma.rb"]
+CMD ["sh", "-c", "export SECRET_KEY_BASE=$(bundle exec rake secret) && export RAILS_ENV=${RAILS_ENV} && bundle exec puma -C config/puma.rb"]
 
 ```
-
-
-3. Crie o arquivo `docker-compose.yml`:
-```yaml
-version: '3.8'
-
-services:
-  web:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      - RAILS_ENV=production
-      - RACK_ENV=production
-      - PORT=3000
-    volumes:
-      - .:/app
-    command: bundle exec puma -C config/puma.rb
-```
-
-### Executando a aplicação
-
-1. Construir e executar os containers:
-```bash
-docker-compose up --build
-```
-
-2. A aplicação estará disponível em: `http://localhost:3000`
-
-
-**Nota:** O site funcionará normalmente, mas o formulário de contato apresentará erro ao tentar enviar emails.
-
 ### Executando manualmente
 
 1. Construir a imagem:
