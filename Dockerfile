@@ -8,14 +8,15 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock ./
-RUN bundle install --without test
+RUN    gem install bundler:1.17.1 \
+    && bundle install --without test
 
 COPY . .
 
 ARG RAILS_ENV
 ENV RAILS_ENV=${RAILS_ENV}
 
-RUN    SECRET_KEY_BASE=$(bundle exec rake secret) ${RAILS_ENV} bundle exec rake assets:precompile \
+RUN    SECRET_KEY_BASE=$(bundle exec rake secret) RAILS_ENV=${RAILS_ENV} bundle exec rake assets:precompile \
     && groupadd -r rails \
     && useradd -r -g rails rails \
     && chown -R rails:rails /app

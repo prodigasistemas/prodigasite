@@ -85,7 +85,7 @@ docker-compose up --build
 
 1. Construir a imagem:
 ```bash
-docker build -t prodigasite:1.0.0 --build-args RAILS_ENV=development .
+docker build -t prodigasite:1.0.0 --build-arg RAILS_ENV=development .
 ```
 
 2. Executar container:
