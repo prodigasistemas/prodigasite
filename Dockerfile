@@ -25,4 +25,4 @@ USER rails
 
 EXPOSE 3000 4000
 
-CMD ["sh", "-c", "export SECRET_KEY_BASE=$(bundle exec rake secret) && export RAILS_ENV=development && bundle exec puma -C config/puma.rb"]
+CMD ["sh", "-c", "export SECRET_KEY_BASE=$(bundle exec rake secret) && export RAILS_ENV=${RAILS_ENV} && bundle exec puma -C config/puma.rb"]
