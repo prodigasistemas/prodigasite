@@ -1,0 +1,31 @@
+{
+  "ServiceName": "prodigasite",
+  "SourceConfiguration": {
+    "ImageRepository": {
+      "ImageIdentifier": "YOUR_ECR_URI:latest",
+      "ImageConfiguration": {
+        "Port": "3000",
+        "RuntimeEnvironmentVariables": {
+          "RAILS_ENV": "production",
+          "RACK_ENV": "production",
+          "TZ": "America/Belem",
+          "LANG": "pt_BR.UTF-8"
+        }
+      },
+      "ImageRepositoryType": "ECR"
+    },
+    "AutoDeploymentsEnabled": true
+  },
+  "InstanceConfiguration": {
+    "Cpu": "0.25 vCPU",
+    "Memory": "0.5 GB"
+  },
+  "HealthCheckConfiguration": {
+    "Protocol": "HTTP",
+    "Path": "/",
+    "Interval": 10,
+    "Timeout": 5,
+    "HealthyThreshold": 1,
+    "UnhealthyThreshold": 5
+  }
+}

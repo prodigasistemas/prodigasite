@@ -1,0 +1,23 @@
+version: 1.0
+runtime: docker
+build:
+  commands:
+    build:
+      - echo "Build started on `date`"
+      - docker build -t prodigasite --build-arg RAILS_ENV=production .
+      - echo "Build completed on `date`"
+run:
+  runtime-version: latest
+  command: sh -c "export SECRET_KEY_BASE=$(bundle exec rake secret) && export RAILS_ENV=production && bundle exec puma -C config/puma.rb"
+  network:
+    port: 3000
+    env: PORT
+  env:
+    - name: RAILS_ENV
+      value: production
+    - name: RACK_ENV
+      value: production
+    - name: TZ
+      value: America/Belem
+    - name: LANG
+      value: pt_BR.UTF-8
